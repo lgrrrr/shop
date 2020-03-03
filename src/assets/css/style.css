@@ -1,0 +1,333 @@
+*{padding: 0;margin: 0;}
+html{font-size: 16px;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{vertical-align: middle;}
+body{width: 100%;}
+.index{width: 100%;position: relative;}
+.headerTitle{background-color: #FF7084;padding: 0.5rem 0rem;}
+.headerTitle h1{color: #fff;font-size: 1.125rem;text-align: center;font-weight: 400;position: relative;}
+.headerTitle .list{float: left;width: 0.56rem;position: absolute;top: 11px;left: 1rem;}
+.position{font-size: 0.5rem;padding-bottom: 0.1rem;position: absolute;top: 11px;right: 1rem;text-align: center;border: 1px solid #fff;border-radius: 25px;width: 3.5rem;color: #fff;padding: 0.1rem 0;}
+.position .more{width: 0.75rem;margin-right: 0.4rem;}
+.position .ding{width: 0.75rem;margin-left: 0.3rem;}
+.headerSearch{overflow: auto;background-color: #FF7084;padding-bottom: 4rem;border-radius: 0 0 20px 20px;}
+.headerSearch .kid{float: left;width: 1.75rem;padding-left: 1rem;}
+.headerSearch .date{width: 0.9rem;margin-top: 0.3rem;padding-left: 0.5rem;}
+.search img{padding-right: 0.5rem;width: 0.75rem;}
+.search{font-size: 0.75rem;margin-left: 0.5rem;color: #999999;float: left;width: 70%;background-color: #fff;border-radius: 25px;padding: 0.3rem 0.8rem;}
+.banner{width: 92%;margin: 0 auto;position: absolute;top: 4.7rem;left: 1rem;}
+.banner img{width: 100%;height: 150px;}
+.indexNav{padding-top: 7rem;}
+.indexNav a{float: left;width: 20%;text-align: center;color: #1C1C1C;font-size: 0.75rem;padding: 0.7rem 0rem;}
+.indexNav img{height: 2rem;padding-bottom: 0.4rem;}
+.clear{clear: both;}
+.indexNews{background-color: #FF7084;width: 85%;border-radius: 25px;margin: 0 auto;}
+.indexText{overflow: hidden;width: 95%;margin: 0 auto;padding: 0.3rem 0rem;margin-bottom: 1rem;}
+.indexText .light{width: 0.94rem;height: 0.94rem;float: left;}
+.indexText .jiantou{width: 0.42rem;float: right;}
+.indexText p{float: left;font-size: 0.72rem;color: #fff;margin-left: 1rem;}
+.groupList{border-top: 5px solid #eeeeee;}
+.groupCon{margin: 0 auto;padding: 0 1rem;}
+.groupCon h4{font-weight: 400;border-left: 3px solid #FF7084;font-size: 1rem;margin:1rem 0;padding-left: 0.2rem;}
+.groupCon h4 a{float: right;font-size: 0.65rem;color: #313131;}
+.listCon{padding-bottom: 1rem;}
+.listCon a{float: left;width: 30%;}
+.con a:nth-child(2n){margin: 0 1rem;}
+.listCon dl dd{font-size: 0.4rem;padding: 0.2rem 0;}
+dl .hei{color: #000000;}
+.listCon dl img{border: 2px solid #FF7084;border-radius: 5px;width: 100%;text-align: center;}
+.listCon .price,.activeLeft .price{color: #FF7084;font-size: 0.8rem;}
+.listCon .oldPrice{text-decoration: line-through;color: #999999;font-size: 0.5rem;}
+.price span{padding: 0 0.2rem;background-color: #FF7084;color: #fff;font-size: 0.5rem;border-radius: 0 5px 5px 5px;margin-left: 0.2rem;}
+.oldPrice .p{text-decoration: line-through;color: #999999;font-size: 0.5rem;}
+.indexActive{border-top: 2px solid #eeeeee;margin-top: 1rem;}
+.w{margin: 0 auto;overflow: hidden;padding: 0 1rem;}
+.activeLeft{width: 45%;float: left;margin: 1rem auto;}
+.activeLeft h4{font-weight: 400;font-size: 1rem;float: left;}
+.activeLeft p{font-size: 0.5rem;}
+.activeLeft .texts{color: #999999;margin-left: 5rem;padding-top: 0.2rem;}
+.activeLeft .text{border: 1px solid #FF7084;border-radius: 5px;float: right;}
+.qian{background-color: #FF7084;color: #fff;}
+.hou{color: #FF7084;}
+.activeLeft:first-child{border-right: 2px solid #ccc;padding-right: 1rem;}
+.activeLeft:last-child{float: right;margin-left: 0.6rem;}
+.activeLeft:last-child dl{width: 40%;}
+.oldPrice .jia{background-color: #FD425D;color: #fff;border-radius: 7px;font-size: 0.5rem;padding: 0 0.1rem;}
+.activeLeft dl{width: 50%;float: left;margin-top: 1rem;}
+.activeLeft dt{text-align: center;}
+.activeLeft dt img{width: 3.2rem;height: 3.25rem;text-align: center;}
+.share{margin-top: 1rem;background-color: #FD425D;color: #fff;border-radius: 10px;font-size: 0.8rem;text-align: center;}
+.title h1 span{padding: 0 0.5rem;}
+.title{text-align: center;padding: 1rem 0;}
+.title img{height: 1.2rem;line-height: 1.2rem;width: 1.1rem;}
+.title h1{font-size: 1.2rem;line-height: 1.2rem;}
+.hot{margin: 0 auto;padding: 0 1rem;}
+.hot a{width: 30.3%;border: 1px solid #EEEEEE;border-radius: 5px;}
+.hot a:nth-child(2n){margin: 0 0.7rem;}
+.hot dl img{border: none;width: 100%;}
+.listCon dl .hotprice{color: #FF7084;font-size: 0.7rem;}
+.listCon dl .hotprice span{color: #999999;padding-left: 0.5rem;font-size: 0.4rem;}
+.Viewmore{text-align: center;padding: 1rem 0;}
+.Viewmore a{color: #999999;}
+.product{margin: 0 auto;padding: 0 1rem;margin-bottom: 10rem;}
+.product a{width: 47%;float: left;border: 1px solid #EEEEEE;border-radius: 5px;margin-bottom: 0.5rem;}
+.product a:nth-child(2n){margin-left: 1rem;}
+.product dl img{width: 100%;}
+.product dl dd{padding: 0.4rem 0.3rem;font-size: 0.7rem;}
+.product dl dd span:last-child{padding-left: 2rem;color: #999999;}
+.product dl dd .big{font-size: 0.9rem;color: #FF7084;}
+.jptj{margin: 0 auto;text-align: center;width: 92%;}
+.jptj img{width: 100%;height: 150px;}
+.recommend{width: 92%;}
+.jpList{padding: 0 1rem;margin: 1rem auto;margin-bottom: 10rem;}
+.jpList a{float: left;width: 30%;}
+.jpList a:nth-child(3n-1){margin: 0 1rem;}
+.jpList dl img{border: none;width: 100%;}
+.xia{padding: 1rem 0;}
+.xia p{color: #999999;text-align: center;margin-bottom: 6rem;}
+.footer{background-color: #fff;width: 100%;position: fixed;bottom: 0;left: 0;padding: 15px 0px;border-top:1px solid rgba(204,204,204,1);z-index: 999;}
+.footer a{color: #333333;font-size: 0.7rem;float: left;text-align: center;width: 25%;}
+.footer .style{color: #FF7084;}
+.footer img{width: 1.3rem;padding-bottom: 0.2rem;}
+
+/*轮播图*/
+.swiper-pagination-bullet-custom {width: 7px;height: 7px;text-align: center;line-height: 20px;font-size: 12px;color: #000;opacity: 1;border-radius: 5px;background-color:rgba(255,255,255,0.7)}
+.swiper-pagination-bullet-custom.swiper-pagination-bullet-active {color: #fff;background-color:rgba(255,255,255,1)}
+.listCon .swiper-pagination-bullet-custom {margin-top: 1rem;width: 7px;height: 7px;text-align: center;line-height: 20px;font-size: 12px;color: #000;opacity: 1;border-radius: 5px;background: rgba(0, 0, 0, 0.2)}
+.listCon .swiper-pagination-bullet-custom.swiper-pagination-bullet-active {color: #fff;background-color: #FD2B48;}
+
+/*分类*/
+.sort{width: 100%;}
+.searchSort{width: 90%;background-color: #EEEEEE;}
+.sortSearch{padding: 0.5rem 0;}
+.sortCon{border-top: 1px solid #cccccc;padding-top: 0.7rem;}
+.sortNav,.sortList{float: left;}
+.sortNav h2{font-size: 0.9rem;font-weight: 400;padding: 0.7rem 0rem;background-color: #EEEEEE;}
+.sortNav p{border-left: 5px solid #FF7084;}
+.sortNav{width: 25%;border-right: 1px solid #CCCCCC;margin-right: 2%;text-align: center;}
+.sortNav li{padding: 0.7rem 0rem;font-size: 0.69rem;cursor: pointer;}
+.sortNavstyle{background-color: #EEEEEE;}
+.sortList{width: 70%;}
+
+/*商品详细*/
+.showPhoto img{width: 100%;}
+.intro{padding: 1rem 1.2rem;margin: 0 auto;}
+.intro p{line-height: 1.5rem;}
+.intro .one{color: #FF7084;font-size: 1.1rem;}
+.intro p:first-child .q{font-size: 0.9rem;}
+.intro p:first-child .old{font-size: 0.7rem;color: #333333;padding-left: 0.5rem;}
+.intro p:first-child .old img{width: 0.87rem;height: 0.5rem;padding-bottom: 0.1rem;padding-left: 0.1rem;}
+.intro .text{font-size: 0.9rem;font-weight: 600;}
+.intro p:last-child{font-size: 0.7rem;color: #999999;}
+.intro p .kucun{padding: 0 4rem;}
+.bor{border-top: 1px solid #EEEEEE;}
+.bor p a:first-child{margin: 0 0.7rem;}
+.bor p,.bors p{line-height: 0rem;}
+.bor p .yh{padding: 0.2rem 0.1rem;margin-left: 0.8rem;font-size: 0.4rem;color: #fff;background-color: #FF7084;border-radius: 0 5px 5px 0;}
+.bor p .man{padding: 0.05rem 0.1rem;color: #999999;border: 1px solid #FF7084;border-radius: 5px 3px 3px 5px;}
+.jianimg{float: right;width: 0.37rem;padding-left: 1rem;}
+.bors .yellow{color: #333333;margin: 0 1rem;}
+.bors{border-top: 5px solid #EEEEEE;}
+.bors h6{color: #333333;font-size: 0.8rem;}
+.bors .infor{padding: 1.2rem;font-size: 0.8rem;}
+.shop{padding: 0.7rem 1rem;border-top: 1px solid #EEEEEE;}
+.shop .head{float: left;margin-bottom: 0.5rem;width: 2.8rem;height: 2.8rem;border-radius: 50%;background-color: #EEEEEE;display: inline-block;}
+.shop h4{float: left;padding-left: 1rem;padding-top: 0.6rem;font-weight: 400;}
+.shop .jrdp{width: 5rem;background-color: #FF7084;padding: 0.2rem 0.5rem;margin-top: 0.5rem;text-align: center;border-radius: 5px;color: #fff;float: right;}
+.bors .infor .all{float: right;color: #666666;}
+.pinglun .cmtHead{float: left;width: 1.75rem;height: 1.75rem;border-radius: 50%;background-color: #EEEEEE;display: inline-block;}
+.pinglun h5{padding-top: 0.3rem;padding-left: 0.5rem;float: left;font-size: 0.8rem;color: #666666;font-weight: 400;}
+.pinglun h5 img{width: 4.5rem;padding-left: 1rem;height: 0.625rem;}
+.pinglun .time{float: right;padding-top: 0.3rem;font-size: 0.7rem;color: #999999;}
+.pinglun .plCon{font-size: 0.72rem;color: #666666;padding: 0.8rem 0rem 0.5rem 0rem;line-height: 0rem;}
+.yptj h1{text-align: center;font-size: 0.8rem;color: #FF7084;padding-bottom: 1rem;}
+.yptj h1 img{width: 0.75rem;height: 0.75rem;}
+.yptj h1 span{padding: 0rem 0.5rem;}
+.yptj{padding: 1rem;overflow: hidden;}
+.yptj a{width: 30%;float: left;margin-bottom: 0.7rem;}
+.yptj dl img{width: 100%;}
+.yptj a:nth-child(3n){margin: 0 1rem;}
+.yptj dl dd{font-size: 0.6rem;color: #000000;line-height: 0.9rem;padding: 0.3rem 0 0 0;}
+.yptj dl dd:last-child{color: #FF7084;font-size: 0.7rem;}
+.ypty h1 .introduce{color: #000000;}
+.introduce h1{text-align: center;font-size: 0.8rem;padding: 0.8rem 0rem;}
+.introduce img{width: 100%;}
+
+/*ShopFooter*/
+.shopFooter{width: 100%;padding: 0 1rem;background-color: #fff;position: fixed;left: 0;bottom: 0;z-index: 999}
+.shopFooter .fun{padding: 0.5rem 0rem;color: #202020;font-size: 0.72rem;width: 13%;text-align: center;float: left;}
+.shopFooter .fun img{width: 0.9rem;height: 0.875rem;}
+.shopFooter .fun p{padding-top: 0.2rem}
+.shopFooter .button{display: inline-block;margin-top: 0.2rem;margin-left: 0.5rem;margin-bottom: -1rem;border-radius: 30px;font-size: 1.5rem;padding: 0.2rem 1rem 0.5rem;color: #fff;background: linear-gradient(to right,#FF7084,#FD405B);}
+.shopFooter .button a{font-size: 0.88rem;color: #fff;}
+.shopFooter .button .gwc{padding-right: 0.5rem}
+.shopFooter .button .gm{padding-left: 0.5rem}
+.shopFooter .button .go{text-align: center;width: 10rem;display: inline-block;font-size: 1.1rem;}
+
+/*goodList*/
+.goodList a{width: 100%;display: inline-block;border-bottom: 1px solid #CCCCCC;padding: 0.3rem 0 0.5rem 0}
+.goodList dt{float: left;padding-right: 0.4rem}
+.goodList dt img{width: 5.3rem;height: 5rem;border-radius: 5px}
+.goodList .first{line-height: 1rem;color: #333333}
+.goodList dd{float: left;width: 65%;font-size: 0.75rem;}
+.goodList dl .price{padding: 0.5rem 0;color: #999999;font-size: 0.6rem}
+.goodList dl .last{color: #FF4660}
+.goodList dl .last span{float: right;}
+.goodList dl .last span img{width: 1.25rem;height: 1.25rem;}
+
+/*Personal*/
+.personal{background-color: #eeeeee;padding-bottom: 10rem}
+.login{overflow: hidden;border-radius: 0 0 25px 25px;position: relative;background-color: #FF7084;padding: 1.5rem 1rem 4rem 2.5rem}
+.login .head{margin-right: 0.5rem;width: 3.6rem;height: 3.6rem;border-radius: 50%;float: left;display: inline-block;background-color: #fff;opacity: 0.5;}
+.login .name{float: left;color: #fff;font-size: 0.9rem;margin-top: 0.4rem}
+.login .name p{padding-bottom: 0.3rem}
+.login .name a{display: inline-block;color: #fff;font-size: 0.69rem;border: 1px solid #fff;border-radius: 25px;padding: 0rem 0.35rem}
+.login .perjt{float: right;width: 0.5rem;height: 0.8rem;margin-top: 1.4rem}
+.personCon{border-radius: 10px;background-color: #fff;margin: 0 1rem 0.6rem;overflow: auto}
+.personCon .many{width: 33.3%;float: left;text-align: center;padding: 0.7rem 0}
+.personCon .many h5{font-weight: 400;color: #666666;font-size: 0.8rem;}
+.personCon .many h5 p{border-right: 1px solid #EEEEEE;padding-bottom: 0.5rem}
+.personCon .many a{padding: 0 0 0.3rem 0rem;display: inline-block;color: #666666}
+.per{position: relative;top: -2.5rem}
+.personCon h4{padding: 0.7rem 1rem;font-weight: 400}
+.personCon h4 a{float: right;display: inline-block;font-size: 0.7rem;color: #666666;padding-top: 0.3rem}
+.personCon h4 a img{padding-bottom: 0.1rem;padding-left: 0.3rem;width: 0.4rem;height: 0.6rem;}
+.dingdan{border-top: 1px solid #EEEEEE;overflow: auto;padding: 0.8rem 0 0 0}
+.dingdan .order,.dingdan .service{width: 20%;float: left;text-align: center;padding-bottom: 0.8rem;display: inline-block;}
+.dingdan .service{width: 25%;}
+.dingdan a img{width: 1.5rem;height: 1.45rem;}
+.dingdan .service img{height: 1.56rem;}
+.dingdan a p{font-size: 0.7rem;color: #333333;padding-top: 0.5rem}
+
+/*ShopCart*/
+.shopCart{background-color: #eeeeee;padding-bottom: 15rem}
+.art h5{font-weight: 400}
+.art{background-color: #fff;overflow: auto;border-radius: 5px;margin: 0.5rem 1rem;padding: 0.3rem 0.5rem 0.7rem;border-radius: 5px}
+.art .xz{width: 0.94rem;height: 0.94rem;padding-right: 0.5rem}
+.artList .tb{float: left;}
+.art .bxz{margin-top: 2rem}
+.artList{margin-top: 1rem;overflow: auto}
+.artList .gwcCon{float: left;width: 90%}
+.artList dl dt{float: left;padding-right: 0.5rem}
+.artList dl dt img{width: 5.2rem;height: 5.2rem;}
+.artList dl .tit{font-size: 0.8rem;color: #000000;position: relative;}
+.artList dl dd{width: 60%;float: left;}
+.artList dl .color,.artList dl .jia{font-size: 0.7rem}
+.artList dl dd .selete{position: absolute;right: -15px;top: 2px;width: 0.87rem;height: 0.87rem;}
+.artList dl .color{border-radius: 5px;width: 24%;color: #999999;margin: 0.5rem 0;background-color: #eeeeee;padding: 0 0.1rem;}
+.artList dl .color img{width: 0.34rem;height: 0.19rem;padding-left: 0.3rem}
+.artList dl .jia{color: #FF4660}
+.artList dl .jia .add{float: right;position: relative;right: -15px;;color: #999999;border: 1px solid #CCCCCC;border-radius: 5px;padding: 0 0.3rem}
+.artList dl .jia .add .num{color: #333333;border-left: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;padding: 0 0.3rem;margin: 0 0.3rem}
+.checkall{background-color: #fff;overflow: auto;width: 100%;padding: 0.8rem 0;position: fixed;bottom: 4rem}
+.checkall h5 .xz{width: 0.94rem;height: 0.94rem;padding-right: 0.5rem}
+.checkall h5{font-weight: 400;float: left;margin-top: 0.4rem}
+.checkall p{float: right;font-size: 0.85rem}
+.allCon{margin: 0 1.5rem}
+.checkall p span{font-size: 0.7rem;color: #FF4660}
+.checkall p a{display: inline-block;color: #fff;background-color: #FF7084;border-radius: 5px;margin-left: 0.5rem;padding: 0.3rem 0.5rem;font-size: 1rem}
+
+/*Promotion*/
+.promotion{background-color: #eeeeee;padding-bottom: 6rem}
+.Now{background-color: #ff7084;overflow: auto;position: relative;color: #fff;padding: 1rem 1.5rem}
+.Now h5{text-align: center;font-weight: 400}
+.Now h5 span{display: block;font-size: 2.5rem;padding-top: 0.5rem}
+.Now h6{font-weight: 400;float: left;}
+.Now h6 span{display: block;text-align: center;padding-top: 0.5rem}
+.Now h6:last-child{float: right;}
+.draw{width: 29%;background-color: #eeeeee;padding: 0.5rem 0.7rem;border-radius: 50px;position: absolute;right: 120px;top: 160px}
+.ljtx{background-color: #ff7084;border-radius: 25px;color: #fff;font-size: 0.7rem;display: inline-block;padding:0.5rem 2rem}
+.proCon{padding: 0 1rem;margin: 2rem auto}
+.proCon a{width: 48.5%;display: inline-block;border-radius: 5px;padding: 1.5rem 0;margin-bottom: 0.5rem;text-align: center;background-color: #fff}
+.proCon a:nth-child(2n){margin-left: 0.5rem}
+.proCon a img{width: 1.5rem;height: 1.5rem;}
+.proCon a p{font-size: 0.8rem;color: #333333;padding-top: 0.8rem}
+
+/*Collect*/
+.sc{padding: 0.8rem 1rem}
+.sc h3{border-left:6px solid #ff0000;padding-left: 1rem;font-weight: 400;color: #666666}
+.sc .list{display: inline-block;margin-top: 1rem}
+.sc .list img{margin-right: 0.7rem;float: left;width: 8.13rem;height: 8rem;border-radius: 5px}
+.sc .list .first{font-size: 0.9rem;color: #333333;line-height: 1.3rem}
+.sc .list .scnum{font-size: 0.7rem;color: #999999;padding: 0.7rem 0 2.5rem}
+.sc .list .price{color: #FF4660;font-size: 0.7rem}
+.sc h6{font-weight: 400;color: #333333;font-size: 0.8rem;text-align: center;margin: 1.3rem 0}
+.sc h6 img{width: 0.35rem;height: 0.35rem;}
+.sc h6 .line{width: 4rem;margin-bottom: 0.2rem;border-top: 1px solid #999999;display: inline-block}
+.sc h6 .text{padding: 0 1.5rem}
+.sc .down{display: inline-block;width: 48%;margin-bottom: 1rem;}
+.sc .down:nth-child(2n){float: right;}
+.sc .down img{width: 10.2rem;height: 9.25rem;border-radius: 5px}
+.sc .down dl{border: 1px solid #EEEEEE;border-radius: 5px}
+.sc .down dl dd{padding: 0.5rem 1rem 0.2rem}
+.sc .down dl .first{font-size: 0.65rem;color: #000000;line-height: 1rem}
+.sc .down dl .last{font-size: 0.8rem;color: #FF4660}
+.sc .down dl .last span{float: right;color: #999999;font-size: 0.6rem;display: inline-block;padding-top: 0.2rem}
+
+/*AddressInfo*/
+.addCon{width: 100%;}
+.addCon .addC{border: 1px solid #EEEEEE;padding: 0.4rem 0.7rem;border-radius: 5px;display: inline-block;margin:0.5rem 1rem 0;width: 85%}
+.addCon .addC p{font-size: 0.75rem;color: #666666;line-height: 1.2rem}
+.addCon .addC .lan{border-top: 1px solid #EEEEEE;padding-top: 0.3rem;margin-top: 0.4rem}
+.addCon .addC .lan img{width: 0.72rem;height: 0.72rem;margin-bottom: 0.2rem;padding-right: 0.4rem}
+.addCon .addC .lan .moren{color: #EFB336;font-size: 0.5rem}
+.addCon .addC .lan .caozuo{float: right;font-size: 0.7rem;}
+.addCon .addC .lan .caozuo .del{padding-left: 0.7rem}
+.addCon .add{display: inline-block;position: fixed;bottom: 10px;left: 0;;width: 92%;padding: 0.5rem 0;margin:0rem 1rem;background-color: #FF7084;color: #fff;font-size: 1.2rem;text-align: center;border-radius: 25px;}
+
+/*Addnew*/
+.addNewcon p{font-size: 0.9rem;color: #666666;border-bottom: 1px solid #EEEEEE;padding: 1rem 0 1rem 1rem}
+.addNewcon span{font-size: 0.8rem;color: #666666}
+.addNewcon label{width: 6rem;display: inline-block}
+.addNewcon .normal{margin-right: 0.5rem}
+.addCon .ts{border-bottom: 0;font-size: 0.75rem}
+.addCon .kx{border-bottom: 5px solid #EEEEEE}
+
+/*Account*/
+.recommend .down dl{border: 0;}
+.recommend{background-color: #EEEEEE;}
+.collCon{overflow: auto;margin: 1rem 1rem 0;font-size: 0.8rem;color: #fff;border-radius: 5px;padding: 1rem 1rem 1.3rem;background: linear-gradient(to right,#FA9CA9,#FF7084)}
+.collCon p span{display: block;}
+.collCon p .yuan{font-size: 2rem;}
+.collCon p a{float: right;color: #ff7084;background-color: #fff;border-radius: 25px;padding: 0.3rem 1.4rem;}
+.collCon p .left{float: left;}
+.collCon p .right{float: right;margin-right: 2rem;}
+.collCon .x{margin-top: 1.5rem;margin-bottom: 1rem;}
+.collCon .x .left span,.collCon .x .right span{font-size: 1.5rem;}
+.account .accNav{overflow: auto;padding: 0.9rem 0;border-bottom: 1px solid #EEEEEE;}
+.account .accNav a{width: 25%;float: left;text-align: center;} 
+.account .accNav a img{width: 1.25rem;height: 1.25rem;}
+.account .accNav a p{font-size: 0.7rem;color: #666666;padding-top: 0.6rem;}
+.account .active{padding: 0 1rem;margin-top: 1rem;}
+.account .active .act{width: 40%;float: left;border-radius: 5px;padding: 0.7rem 0.8rem;}
+.account .active .act:first-child{background-color: #FFF6D1;}
+.account .active .act:nth-child(2n){background-color: #FFF3F3;color: #F64051;float: right;}
+.account .active .act p{float: left;font-size: 0.9rem;color: #F22F20;font-weight: bold}
+.account .active .act p span{display: block;font-size: 0.65rem;margin-top: 0.4rem;}
+.account .active .act img{float: right;width: 2.59rem;height: 2.37rem;}
+.account .active .join{overflow: auto;margin-top: 1.5rem;}
+.account .active .join img{width: 2.62rem;height: 2.62rem;float: left;}
+.account .active .join p{float: left;font-size: 0.9rem;padding-left: 1rem;}
+.account .active .join p span{padding-top: 0.3rem;display: block;font-size: 0.7rem;color: #999999;}
+.account .active .join a{float: right;margin-top: 0.5rem;font-size: 0.8rem;color: #333333;width: 4.81rem;text-align: center;padding: 0.2rem;border-radius: 25px;border: 1px solid #CCCCCC;}
+
+/*Member*/
+.memberBanner{width: 81%;background-color: #fbb215;position: relative;margin: 1.1rem auto 0;border-radius: 5px;color: #fff;padding: 0.5rem 1rem;}
+.memberBanner h1{font-size: 1.6rem;font-weight: 400;}
+.memberBanner h1 span{display: block;font-size: 0.8rem;padding: 0.4rem 0rem 2rem;}
+.memberBanner .jp{position: absolute;width: 2.5rem;top: 0;right: 1.5rem;}
+.memberBanner h6 img{width: 0.8rem;height: 1rem;margin-bottom: 0.2rem;margin-right: 0.3rem;}
+.memberBanner h6{padding-bottom: 1rem;}
+.memberCon{padding: 0 1rem;border-bottom: 5px solid #eeeeee;padding-bottom: 0.8rem;}
+.memberCon h5{font-weight: 400;padding: 1rem 0;}
+.memberCon h5 img{width: 1rem;padding-right: 0.2rem;vertical-align: middle;margin-bottom: 0.2rem;}
+.memberCon h5 .num{float: right;}
+.memberCon h5 .num .ling{color: #FF7084;}
+.mark{overflow: auto;background-color: #f7f7f7;border-radius: 5px;margin-bottom: 0.7rem;}
+.mark h4{padding-left: 0.6rem;margin: 0.8rem 0;border-left: 3px solid #FF7084;font-weight: 400;font-size: 0.8rem;}
+.mark h4 span{float: right;color: #666;font-size: 0.7rem;padding-right: 0.8rem;}
+.mark p{font-size: 0.7rem;border-top: 3px solid #eeeeee;margin: 0 0.8rem;padding: 0.5rem 0;color: #666;}
+.mark p .num{float: right;}
+.mark p .num .ling{color: #FF7084;}
+
