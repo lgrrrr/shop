@@ -239,7 +239,7 @@ export default {
           dpList:[ 
             {"href":"/Detailed","src":require("@/assets/img/hot.png"),"price":"￥14.90","pay":"已售231件","text":"婴儿礼盒新生儿玩具满月礼物套装刚出生宝..."},
             {"href":"/Detailed","src":require("@/assets/img/hot.png"),"price":"￥49.00","pay":"已售231件","text":"婴儿礼盒新生儿玩具满月礼物套装刚出生宝..."},
-            {"href":"/","src":require("@/assets/img/hot.png"),"price":"￥14.90","pay":"已售231件","text":"婴儿礼盒新生儿玩具满月礼物套装刚出生宝..."},
+            {"href":"/","src":require("@/assets/img/hot.png"),"price":"￥37.00","pay":"已售231件","text":"婴儿礼盒新生儿玩具满月礼物套装刚出生宝..."},
             {"href":"/","src":require("@/assets/img/hot.png"),"price":"￥49.00","pay":"已售231件","text":"婴儿礼盒新生儿玩具满月礼物套装刚出生宝..."},
             {"href":"/","src":require("@/assets/img/hot.png"),"price":"￥14.90","pay":"已售231件","text":"婴儿礼盒新生儿玩具满月礼物套装刚出生宝..."},
             {"href":"/","src":require("@/assets/img/hot.png"),"price":"￥49.00","pay":"已售231件","text":"婴儿礼盒新生儿玩具满月礼物套装刚出生宝..."},
